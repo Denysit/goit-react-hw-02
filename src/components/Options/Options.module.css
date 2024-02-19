@@ -1,0 +1,19 @@
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    border: 1px solid transparent;
+}
+
+.button:hover{
+    background-color: rgb(145, 151, 151);
+    color: aliceblue;
+}
+
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset;
+}
